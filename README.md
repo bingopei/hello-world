@@ -24,3 +24,8 @@
 # file_keys = file.keys()   >>file_keys (['__header__', '__version__', '__globals__', 'b0'])
 
 # filenames = os.listdir(d_path) # 获得该文件夹下所有文件名
+
+# start = time.time()
+
+# torch.save(net, 'net_model.pth')
+# net = torch.load('net_model.pth')
