@@ -28,4 +28,6 @@
 # start = time.time()
 
 # torch.save(net, 'net_model.pth')
-# net = torch.load('net_model.pth')
+# net = torch.load('net_model.pth')  #加class MLP(nn.model)  数据前处理（读取字典，标准化，转torch，gpu等）
+
+# reshape，view，resize 改shape
