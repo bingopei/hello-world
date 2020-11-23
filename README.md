@@ -31,3 +31,5 @@
 # net = torch.load('net_model.pth')  #加class MLP(nn.model)  数据前处理（读取字典，标准化，转torch，gpu等）
 
 # reshape，view，resize 改shape
+
+# nn.MaxPool1d 默认向下取整 49》24
