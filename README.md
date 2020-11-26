@@ -33,3 +33,9 @@
 # reshape，view，resize 改shape
 
 # nn.MaxPool1d 默认向下取整 49》24
+
+#  labels =['b00','b01','b02','b03','b04','b05','b06','b07','b08','b09','b10','b11']
+#  colors =['c', 'b', 'g', 'r', 'm', 'y', 'k', 'darkgoldenrod','lime', 'hotpink','orangered','chocolate']
+#  maker 不接受列表？ 可以用for i, marker in zip(range(17), ['.',',', 'o','v','^','<','>','8','s','p','*','+','D','d','x','|','_']):
+#  plt.scatter(value[test_Y == i, 0], value[test_Y == i, 1],s=8,c=colors[i],label=labels[i])# false s=20；  “==” 表示判别>> 返回ture or false
+#  plt.legend(loc='best',title='12 kinds of fault',markerscale=3) #markerscale 几倍标记大小
