@@ -39,3 +39,5 @@
 #  maker 不接受列表？ 可以用for i, marker in zip(range(17), ['.',',', 'o','v','^','<','>','8','s','p','*','+','D','d','x','|','_']):
 #  plt.scatter(value[test_Y == i, 0], value[test_Y == i, 1],s=8,c=colors[i],label=labels[i])# false s=20；  “==” 表示判别>> 返回ture or false
 #  plt.legend(loc='best',title='12 kinds of fault',markerscale=3) #markerscale 几倍标记大小
+
+# print(f'\r{valid_accuracy}',end='') #原地更新
